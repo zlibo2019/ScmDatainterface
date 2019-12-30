@@ -1,0 +1,81 @@
+2019-12-10 09:14:24  开始调度
+2019-12-10 09:14:30 同步部门 任务开始
+2019-12-10 09:14:31 同步部门 输入字符串的格式不正确。
+2019-12-10 09:14:40 同步部门 任务开始
+2019-12-10 09:14:40 同步部门 输入字符串的格式不正确。
+2019-12-10 09:14:50 同步部门 任务开始
+2019-12-10 09:14:50 同步部门 输入字符串的格式不正确。
+2019-12-10 09:15:00 同步部门 任务开始
+2019-12-10 09:15:00 同步部门 输入字符串的格式不正确。
+2019-12-10 09:15:10 同步部门 任务开始
+2019-12-10 09:15:10 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-10 09:15:10 同步部门 [加写锁失败]data exists
+2019-12-10 09:15:10 同步部门 [获取或推送数据失败]
+2019-12-10 09:15:11 同步部门 任务开始
+2019-12-10 09:15:11 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-10 09:15:11 同步部门 [加写锁失败]data exists
+2019-12-10 09:15:11 同步部门 [获取或推送数据失败]
+2019-12-10 09:15:15  停止调度
+2019-12-10 09:15:24 同步人员 任务开始
+2019-12-10 09:15:24 同步人员 无分组
+2019-12-10 09:15:24 同步人员 加写锁成功
+2019-12-10 09:15:24  数据库操作异常列名 'flag' 无效。
+列名 'flag' 无效。
+列名 'certcode' 无效。
+列名 'account' 无效。
+列名 'certcode' 无效。
+2019-12-10 09:15:24 同步人员 获取原始数据失败get data errorrun sql:select user_duty user_role,zh account,user_lname Name,case  when user_role in( '1','3') then 5 when user_role in( '2','4','5') then 4 else 6 end user_role,dep_no Depart,user_card cardid,case SUBSTRING(flag,17,1) when '1' then case SUBSTRING('flag',18,1) when 0 then '男' else  '女' 	end else '未知' end Sex,user_id user_id,user_telephone Phone,0 user_type,0 user_level,'0000000000' user_finger,user_role user_role,role_name role_name,case when substring(flag,3,2) = '00' then 0 else 1 end card_state,cast(replace(replace(replace(CONVERT(varchar, khsj, 120 ),'-',''),' ',''),':','') as  bigint) khsj,case when isnull(certcode,'') = '' then 'zh'+cast(account as varchar(50)) else certcode end certcode from tmp_dt_user
+2019-12-10 09:15:24 同步人员 释放写锁成功
+2019-12-10 09:15:24 同步人员 [获取或推送数据失败]
+2019-12-10 09:15:37 同步部门 任务开始
+2019-12-10 09:15:37 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-10 09:15:37 同步部门 [加写锁失败]data exists
+2019-12-10 09:15:37 同步部门 [获取或推送数据失败]
+2019-12-10 09:15:39 同步人员 任务开始
+2019-12-10 09:15:39 同步人员 无分组
+2019-12-10 09:15:39 同步人员 加写锁成功
+2019-12-10 09:15:39  数据库操作异常列名 'flag' 无效。
+列名 'flag' 无效。
+列名 'certcode' 无效。
+列名 'account' 无效。
+列名 'certcode' 无效。
+2019-12-10 09:15:39 同步人员 获取原始数据失败get data errorrun sql:select user_duty user_role,zh account,user_lname Name,case  when user_role in( '1','3') then 5 when user_role in( '2','4','5') then 4 else 6 end user_role,dep_no Depart,user_card cardid,case SUBSTRING(flag,17,1) when '1' then case SUBSTRING('flag',18,1) when 0 then '男' else  '女' 	end else '未知' end Sex,user_id user_id,user_telephone Phone,0 user_type,0 user_level,'0000000000' user_finger,user_role user_role,role_name role_name,case when substring(flag,3,2) = '00' then 0 else 1 end card_state,cast(replace(replace(replace(CONVERT(varchar, khsj, 120 ),'-',''),' ',''),':','') as  bigint) khsj,case when isnull(certcode,'') = '' then 'zh'+cast(account as varchar(50)) else certcode end certcode from tmp_dt_user
+2019-12-10 09:15:39 同步人员 释放写锁成功
+2019-12-10 09:15:39 同步人员 [获取或推送数据失败]
+2019-12-10 09:16:50  开始调度
+2019-12-10 09:16:54  停止调度
+2019-12-10 09:16:57 同步人员 任务开始
+2019-12-10 09:16:57 同步人员 SCM一卡通临时表创建成功
+2019-12-10 09:16:57 同步人员 加读锁成功
+2019-12-10 09:17:00 同步人员 to SCM一卡通insert data success,rowcount=4513
+2019-12-10 09:17:00 同步人员 syn success
+2019-12-10 09:17:04 同步人员 truncate redis table success
+2019-12-10 09:17:04 同步人员 释放读锁成功
+2019-12-10 09:17:04 同步人员 [success]finish
+2019-12-10 09:21:17  开始调度
+2019-12-10 09:21:20 同步部门 任务开始
+2019-12-10 09:21:20 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-10 09:21:20 同步部门 [加写锁失败]data exists
+2019-12-10 09:21:20 同步部门 [获取或推送数据失败]
+2019-12-10 14:18:04  开始调度
+2019-12-10 14:18:10 同步部门 任务开始
+2019-12-10 14:18:11 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-10 14:18:11 同步部门 加写锁成功
+2019-12-10 14:18:11 同步部门 获取原始数据成功【rowcount】:1,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 0
+2019-12-10 14:18:11 同步部门 获取原始数据成功【rowcount】:55,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 10000
+2019-12-10 14:18:11 同步部门 释放写锁成功
+2019-12-10 14:18:11 同步部门 获取原始数据成功
+2019-12-10 14:18:11 同步部门 [success]finish
+2019-12-10 14:18:20 同步部门 任务开始
+2019-12-10 14:18:20 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-10 14:18:20 同步部门 加写锁成功
+2019-12-10 14:18:20 同步部门 获取原始数据成功【rowcount】:1,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 0
+2019-12-10 14:18:20 同步部门 获取原始数据成功【rowcount】:55,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 10000
+2019-12-10 14:18:20 同步部门 释放写锁成功
+2019-12-10 14:18:20 同步部门 获取原始数据成功
+2019-12-10 14:18:20 同步部门 [success]finish
+2019-12-10 14:18:20 同步人员 任务开始
+2019-12-10 14:18:21 同步人员 SCM一卡通临时表创建成功
+2019-12-10 14:18:21 同步人员 加读锁成功
+2019-12-10 14:18:22 同步人员 to SCM一卡通insert data success,rowcount=4513
+2019-12-10 14:18:22 同步人员 syn success

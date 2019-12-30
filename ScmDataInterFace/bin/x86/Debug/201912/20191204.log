@@ -1,0 +1,321 @@
+2019-12-04 08:28:47  开始调度
+2019-12-04 08:51:39  开始调度
+2019-12-04 08:51:45  停止调度
+2019-12-04 08:53:48  开始调度
+2019-12-04 08:53:49  停止调度
+2019-12-04 09:00:40  开始调度
+2019-12-04 09:00:42  停止调度
+2019-12-04 09:00:44 同步部门 任务开始
+2019-12-04 09:00:44 同步部门 SCM一卡通middle table create success
+2019-12-04 09:00:56 同步部门 Unexpected character encountered while parsing value: 远. Line 1, position 1.
+2019-12-04 09:04:40 同步部门 任务开始
+2019-12-04 09:04:40 同步部门 SCM一卡通middle table create success
+2019-12-04 09:04:50 同步部门 Unexpected character encountered while parsing value: 远. Line 1, position 1.
+2019-12-04 09:04:56 同步部门 任务开始
+2019-12-04 09:04:56 同步部门 SCM一卡通middle table create success
+2019-12-04 09:05:22 同步部门 Unexpected character encountered while parsing value: 远. Line 1, position 1.
+2019-12-04 09:06:23 同步部门 任务开始
+2019-12-04 09:06:23 同步部门 SCM一卡通middle table create success
+2019-12-04 09:07:00 同步部门 Unexpected character encountered while parsing value: 远. Line 1, position 1.
+2019-12-04 09:07:04 同步部门 任务开始
+2019-12-04 09:07:04 同步部门 SCM一卡通middle table create success
+2019-12-04 09:26:25 同步部门 Unexpected character encountered while parsing value: 操. Line 1, position 1.
+2019-12-04 09:26:32 同步部门 任务开始
+2019-12-04 09:26:32 同步部门 SCM一卡通middle table create success
+2019-12-04 09:27:01 同步部门 未将对象引用设置到对象的实例。
+2019-12-04 09:28:44  开始调度
+2019-12-04 09:28:45  停止调度
+2019-12-04 09:28:47 同步部门 任务开始
+2019-12-04 09:28:47 同步部门 SCM一卡通middle table create success
+2019-12-04 09:28:58 同步部门 Can not convert Object to byte array.
+2019-12-04 09:29:04 同步部门 任务开始
+2019-12-04 09:29:04 同步部门 SCM一卡通middle table create success
+2019-12-04 09:29:46 同步部门 Can not convert Object to byte array.
+2019-12-04 09:39:44  开始调度
+2019-12-04 09:39:46  停止调度
+2019-12-04 09:39:48 同步部门 任务开始
+2019-12-04 09:39:48 同步部门 SCM一卡通middle table create success
+2019-12-04 09:39:49 同步部门 值不能为 null。
+参数名: value
+2019-12-04 09:41:17  开始调度
+2019-12-04 09:41:18  停止调度
+2019-12-04 09:41:20 同步部门 任务开始
+2019-12-04 09:41:20 同步部门 SCM一卡通middle table create success
+2019-12-04 09:41:27 同步部门 Can not convert Array to String.
+2019-12-04 09:48:16  开始调度
+2019-12-04 09:48:17  停止调度
+2019-12-04 10:14:04  开始调度
+2019-12-04 10:14:06  停止调度
+2019-12-04 10:14:08 同步部门 任务开始
+2019-12-04 10:14:09 同步部门 SCM一卡通middle table create success
+2019-12-04 10:14:16 同步部门 值不能为 null。
+参数名: collection
+2019-12-04 10:15:13  开始调度
+2019-12-04 10:15:15  停止调度
+2019-12-04 10:15:17 同步部门 任务开始
+2019-12-04 10:15:17 同步部门 SCM一卡通middle table create success
+2019-12-04 10:16:00 同步部门 值不能为 null。
+参数名: value
+2019-12-04 10:16:36  开始调度
+2019-12-04 10:16:52  停止调度
+2019-12-04 10:16:54 同步部门 任务开始
+2019-12-04 10:16:55 同步部门 SCM一卡通middle table create success
+2019-12-04 10:17:01 同步部门 值不能为 null。
+参数名: value
+2019-12-04 10:18:12  开始调度
+2019-12-04 10:18:15  停止调度
+2019-12-04 10:18:17 同步部门 任务开始
+2019-12-04 10:18:17 同步部门 SCM一卡通middle table create success
+2019-12-04 10:18:48  数据库操作异常对视图或函数 'dt_user' 的更新或插入失败，因其包含派生域或常量域。
+2019-12-04 10:19:13 同步部门 [task fail]向临时表插入新数据失败，【执行语句】:
+insert into dt_user values(1,'1部门')
+insert into dt_user values(2,'2部门')
+2019-12-04 10:19:14 同步部门 syn success
+2019-12-04 10:19:14 同步部门 [task fail]临时表更新正式表失败，【执行语句】:begin exec updateDep_small 1; end;
+错误原因:找不到存储过程 'updateDep_small'。
+2019-12-04 10:20:00 同步部门 任务开始
+2019-12-04 10:20:00 同步部门 SCM一卡通middle table create success
+2019-12-04 10:20:14  数据库操作异常对视图或函数 'dt_user' 的更新或插入失败，因其包含派生域或常量域。
+2019-12-04 10:20:58 同步部门 [task fail]向临时表插入新数据失败，【执行语句】:
+insert into dt_user values(1,'1部门')
+insert into dt_user values(2,'2部门')
+2019-12-04 10:20:59 同步部门 syn success
+2019-12-04 10:20:59 同步部门 [task fail]临时表更新正式表失败，【执行语句】:begin exec updateDep_small 1; end;
+错误原因:找不到存储过程 'updateDep_small'。
+2019-12-04 10:44:16  开始调度
+2019-12-04 10:44:19  停止调度
+2019-12-04 10:44:21 同步部门 任务开始
+2019-12-04 10:44:21 同步部门 SCM一卡通middle table create success
+2019-12-04 10:44:36 同步部门 to SCM一卡通insert data success,rowcount=System.String[]
+2019-12-04 10:48:31 同步部门 syn success
+2019-12-04 10:48:31 同步部门 [task fail]临时表更新正式表失败，【执行语句】:begin exec updateDep_small 1; end;
+错误原因:找不到存储过程 'updateDep_small'。
+2019-12-04 11:03:05  开始调度
+2019-12-04 11:03:06  停止调度
+2019-12-04 11:03:07 同步部门 任务开始
+2019-12-04 11:03:07 同步部门 SCM一卡通middle table create success
+2019-12-04 11:03:12 同步部门 to SCM一卡通insert data success,rowcount=System.String[]
+2019-12-04 11:03:18 同步部门 Unexpected character encountered while parsing value: 远. Line 1, position 1.
+2019-12-04 11:04:08  开始调度
+2019-12-04 11:04:09  停止调度
+2019-12-04 11:04:11 同步部门 任务开始
+2019-12-04 11:04:11 同步部门 SCM一卡通middle table create success
+2019-12-04 11:04:11 同步部门 to SCM一卡通insert data success,rowcount=System.String[]
+2019-12-04 11:04:14 同步部门 未将对象引用设置到对象的实例。
+2019-12-04 11:04:18 同步部门 任务开始
+2019-12-04 11:04:18 同步部门 SCM一卡通middle table create success
+2019-12-04 11:04:18 同步部门 to SCM一卡通insert data success,rowcount=System.String[]
+2019-12-04 11:04:26 同步部门 未将对象引用设置到对象的实例。
+2019-12-04 11:06:58  开始调度
+2019-12-04 11:07:01  停止调度
+2019-12-04 11:07:03 同步部门 任务开始
+2019-12-04 11:07:03 同步部门 SCM一卡通middle table create success
+2019-12-04 11:07:03 同步部门 to SCM一卡通insert data success,rowcount=System.String[]
+2019-12-04 11:07:09 同步部门 未将对象引用设置到对象的实例。
+2019-12-04 11:08:04  开始调度
+2019-12-04 11:08:07  停止调度
+2019-12-04 11:08:10 同步部门 任务开始
+2019-12-04 11:08:10 同步部门 SCM一卡通middle table create success
+2019-12-04 11:08:11 同步部门 to SCM一卡通insert data success,rowcount=System.String[]
+2019-12-04 11:08:15 同步部门 未将对象引用设置到对象的实例。
+2019-12-04 11:08:19 同步部门 任务开始
+2019-12-04 11:08:19 同步部门 SCM一卡通middle table create success
+2019-12-04 11:08:19 同步部门 to SCM一卡通insert data success,rowcount=System.String[]
+2019-12-04 11:08:45 同步部门 未将对象引用设置到对象的实例。
+2019-12-04 11:08:49 同步部门 任务开始
+2019-12-04 11:08:49 同步部门 SCM一卡通middle table create success
+2019-12-04 11:08:49 同步部门 to SCM一卡通insert data success,rowcount=System.String[]
+2019-12-04 11:10:41 同步部门 未将对象引用设置到对象的实例。
+2019-12-04 11:11:09 同步部门 任务开始
+2019-12-04 11:11:09 同步部门 SCM一卡通middle table create success
+2019-12-04 11:11:49 同步部门 to SCM一卡通insert data success,rowcount=System.String[]
+2019-12-04 11:12:22 同步部门 未将对象引用设置到对象的实例。
+2019-12-04 11:12:44 同步部门 任务开始
+2019-12-04 11:12:44 同步部门 SCM一卡通middle table create success
+2019-12-04 11:12:50 同步部门 to SCM一卡通insert data success,rowcount=System.String[]
+2019-12-04 11:13:27 同步部门 未将对象引用设置到对象的实例。
+2019-12-04 11:15:21  开始调度
+2019-12-04 11:15:24  停止调度
+2019-12-04 11:15:25 同步部门 任务开始
+2019-12-04 11:15:26 同步部门 SCM一卡通middle table create success
+2019-12-04 11:15:26 同步部门 to SCM一卡通insert data success,rowcount=System.String[]
+2019-12-04 11:15:54 同步部门 更新云读状态成功
+2019-12-04 11:16:04 同步部门 syn success
+2019-12-04 11:16:04 同步部门 [task fail]临时表更新正式表失败，【执行语句】:begin exec updateDep_small 1; end;
+错误原因:找不到存储过程 'updateDep_small'。
+2019-12-04 11:17:02  开始调度
+2019-12-04 11:17:02  停止调度
+2019-12-04 11:17:16  开始调度
+2019-12-04 11:17:17  停止调度
+2019-12-04 11:17:24 同步部门 任务开始
+2019-12-04 11:17:24 同步部门 SCM一卡通middle table create success
+2019-12-04 11:18:15 同步部门 to SCM一卡通insert data success,rowcount=System.String[]
+2019-12-04 11:18:19 同步部门 更新云读状态成功
+2019-12-04 11:18:19 同步部门 syn success
+2019-12-04 11:18:19 同步部门 [task fail]临时表更新正式表失败，【执行语句】:begin exec updateDep_small 1; end;
+错误原因:找不到存储过程 'updateDep_small'。
+2019-12-04 11:21:08  开始调度
+2019-12-04 11:30:14 同步人员 任务开始
+2019-12-04 11:30:14 同步人员 输入字符串的格式不正确。
+2019-12-04 11:32:12  停止调度
+2019-12-04 11:34:44 同步部门 任务开始
+2019-12-04 11:34:44 同步部门 输入字符串的格式不正确。
+2019-12-04 11:35:25 同步部门 任务开始
+2019-12-04 11:35:25 同步部门 输入字符串的格式不正确。
+2019-12-04 11:48:18 同步部门 任务开始
+2019-12-04 11:48:26 同步部门 输入字符串的格式不正确。
+2019-12-04 11:48:30 同步部门 任务开始
+2019-12-04 11:48:51 同步部门 输入字符串的格式不正确。
+2019-12-04 11:48:56 同步部门 任务开始
+2019-12-04 11:49:30 同步部门 输入字符串的格式不正确。
+2019-12-04 11:49:34 同步部门 任务开始
+2019-12-04 11:49:35 同步部门 输入字符串的格式不正确。
+2019-12-04 11:49:39 同步部门 任务开始
+2019-12-04 13:32:36 同步部门 输入字符串的格式不正确。
+2019-12-04 13:35:58  开始调度
+2019-12-04 15:39:02  开始调度
+2019-12-04 15:39:04  停止调度
+2019-12-04 15:39:06 同步部门 任务开始
+2019-12-04 15:39:06 同步部门 输入字符串的格式不正确。
+2019-12-04 15:43:46  开始调度
+2019-12-04 15:43:47  停止调度
+2019-12-04 15:43:50 同步部门 任务开始
+2019-12-04 15:43:50 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-04 15:43:50 同步部门 加写锁成功
+2019-12-04 15:43:50 同步部门 获取原始数据成功【rowcount】:1,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 0
+2019-12-04 15:44:22 同步部门 未将对象引用设置到对象的实例。
+2019-12-04 15:44:27 同步部门 任务开始
+2019-12-04 15:44:27 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-04 15:44:32 同步部门 [加写锁失败]write is lock
+2019-12-04 15:44:32 同步部门 syn success
+2019-12-04 15:44:32 同步部门 输入字符串的格式不正确。
+2019-12-04 15:44:37 同步部门 任务开始
+2019-12-04 15:44:37 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-04 15:44:38 同步部门 [加写锁失败]write is lock
+2019-12-04 15:44:38 同步部门 syn success
+2019-12-04 15:44:38 同步部门 输入字符串的格式不正确。
+2019-12-04 15:44:51 同步部门 任务开始
+2019-12-04 15:44:51 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-04 15:44:51 同步部门 加写锁成功
+2019-12-04 15:44:51 同步部门 获取原始数据成功【rowcount】:1,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 0
+2019-12-04 15:54:32 同步部门 未将对象引用设置到对象的实例。
+2019-12-04 15:56:56  开始调度
+2019-12-04 15:57:05  停止调度
+2019-12-04 16:14:39  开始调度
+2019-12-04 16:14:44  停止调度
+2019-12-04 16:14:45 同步部门 任务开始
+2019-12-04 16:14:46 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-04 16:14:46 同步部门 加写锁成功
+2019-12-04 16:14:46 同步部门 获取原始数据成功【rowcount】:1,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 0
+2019-12-04 16:15:20 同步部门 释放写锁成功
+2019-12-04 16:15:20 同步部门 获取原始数据成功【rowcount】:55,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 10000
+2019-12-04 16:15:47 同步部门 释放写锁成功
+2019-12-04 16:15:47 同步部门 加写锁成功
+2019-12-04 16:15:47 同步部门 syn success
+2019-12-04 16:15:47 同步部门 输入字符串的格式不正确。
+2019-12-04 16:16:13 同步部门 任务开始
+2019-12-04 16:16:13 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-04 16:16:14 同步部门 [加写锁失败]write is lock
+2019-12-04 16:16:14 同步部门 syn success
+2019-12-04 16:16:14 同步部门 输入字符串的格式不正确。
+2019-12-04 16:20:28  开始调度
+2019-12-04 16:20:29  停止调度
+2019-12-04 16:20:31 同步部门 任务开始
+2019-12-04 16:20:31 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-04 16:20:31 同步部门 加写锁成功
+2019-12-04 16:20:31 同步部门 获取原始数据成功【rowcount】:1,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 0
+2019-12-04 16:20:37 同步部门 [向云提交数据失败]
+2019-12-04 16:20:37 同步部门 syn success
+2019-12-04 16:20:37 同步部门 输入字符串的格式不正确。
+2019-12-04 16:20:46 同步部门 任务开始
+2019-12-04 16:20:46 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-04 16:20:48 同步部门 [加写锁失败]write is lock
+2019-12-04 16:20:48 同步部门 syn success
+2019-12-04 16:20:48 同步部门 输入字符串的格式不正确。
+2019-12-04 16:22:11  开始调度
+2019-12-04 16:22:11  停止调度
+2019-12-04 16:22:13 同步部门 任务开始
+2019-12-04 16:22:13 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-04 16:22:14 同步部门 [加写锁失败]write is lock
+2019-12-04 16:22:14 同步部门 syn success
+2019-12-04 16:22:14 同步部门 输入字符串的格式不正确。
+2019-12-04 16:22:20 同步部门 任务开始
+2019-12-04 16:22:20 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-04 16:22:20 同步部门 加写锁成功
+2019-12-04 16:22:20 同步部门 获取原始数据成功【rowcount】:1,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 0
+2019-12-04 16:22:26 同步部门 释放写锁成功
+2019-12-04 16:22:26 同步部门 [向云提交数据失败]
+2019-12-04 16:22:26 同步部门 syn success
+2019-12-04 16:22:26 同步部门 输入字符串的格式不正确。
+2019-12-04 16:24:30  开始调度
+2019-12-04 16:24:31  停止调度
+2019-12-04 16:24:33 同步部门 任务开始
+2019-12-04 16:24:33 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-04 16:24:34 同步部门 [加写锁失败]write is lock
+2019-12-04 16:24:34 同步部门 syn success
+2019-12-04 16:24:34 同步部门 输入字符串的格式不正确。
+2019-12-04 16:24:43 同步部门 任务开始
+2019-12-04 16:24:43 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-04 16:24:43 同步部门 加写锁成功
+2019-12-04 16:24:43 同步部门 获取原始数据成功【rowcount】:1,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 0
+2019-12-04 16:24:48 同步部门 释放写锁成功
+2019-12-04 16:25:07 同步部门 [向云提交数据失败]
+2019-12-04 16:25:08 同步部门 syn success
+2019-12-04 16:25:08 同步部门 输入字符串的格式不正确。
+2019-12-04 16:25:14 同步部门 任务开始
+2019-12-04 16:25:15 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-04 16:25:15 同步部门 加写锁成功
+2019-12-04 16:25:15 同步部门 获取原始数据成功【rowcount】:1,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 0
+2019-12-04 16:25:38 同步部门 释放写锁成功
+2019-12-04 16:25:38 同步部门 [向云提交数据失败]
+2019-12-04 16:25:38 同步部门 syn success
+2019-12-04 16:25:38 同步部门 输入字符串的格式不正确。
+2019-12-04 16:26:40  开始调度
+2019-12-04 16:26:41  停止调度
+2019-12-04 16:26:43 同步部门 任务开始
+2019-12-04 16:26:43 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-04 16:26:44 同步部门 [加写锁失败]write is lock
+2019-12-04 16:26:44 同步部门 syn success
+2019-12-04 16:26:44 同步部门 输入字符串的格式不正确。
+2019-12-04 16:26:50 同步部门 任务开始
+2019-12-04 16:26:50 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-04 16:26:50 同步部门 加写锁成功
+2019-12-04 16:26:50 同步部门 获取原始数据成功【rowcount】:1,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 0
+2019-12-04 16:27:06 同步部门 获取原始数据成功【rowcount】:55,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 10000
+2019-12-04 16:27:18 同步部门 释放写锁成功
+2019-12-04 16:27:18 同步部门 syn success
+2019-12-04 16:27:18 同步部门 输入字符串的格式不正确。
+2019-12-04 16:27:28 同步部门 任务开始
+2019-12-04 16:27:28 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-04 16:27:28 同步部门 加写锁成功
+2019-12-04 16:27:28 同步部门 获取原始数据成功【rowcount】:1,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 0
+2019-12-04 16:29:25 同步部门 获取原始数据成功【rowcount】:55,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 10000
+2019-12-04 16:29:40 同步部门 释放写锁成功
+2019-12-04 16:29:41 同步部门 syn success
+2019-12-04 16:29:41 同步部门 输入字符串的格式不正确。
+2019-12-04 16:39:53  开始调度
+2019-12-04 16:39:54  停止调度
+2019-12-04 16:39:56 同步部门 任务开始
+2019-12-04 16:39:56 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-04 16:39:56 同步部门 加写锁成功
+2019-12-04 16:40:01 同步部门 获取原始数据成功【rowcount】:1,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 0
+2019-12-04 16:40:05 同步部门 获取原始数据成功【rowcount】:55,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 10000
+2019-12-04 16:40:09 同步部门 释放写锁成功
+2019-12-04 16:40:11 同步部门 syn success
+2019-12-04 16:40:11 同步部门 [success]finish
+2019-12-04 16:40:21 同步部门 任务开始
+2019-12-04 16:40:21 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-04 16:40:21 同步部门 加写锁成功
+2019-12-04 16:40:21 同步部门 获取原始数据成功【rowcount】:1,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 0
+2019-12-04 16:40:23 同步部门 获取原始数据成功【rowcount】:55,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 10000
+2019-12-04 16:40:23 同步部门 释放写锁成功
+2019-12-04 16:40:23 同步部门 syn success
+2019-12-04 16:40:23 同步部门 [success]finish
+2019-12-04 17:09:21 同步部门 任务开始
+2019-12-04 17:09:21 同步部门 get group data successsql contain:select dep_parent from dt_dep  group by dep_parent
+2019-12-04 17:09:21 同步部门 加写锁成功
+2019-12-04 17:09:21 同步部门 获取原始数据成功【rowcount】:1,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 0
+2019-12-04 17:09:21 同步部门 获取原始数据成功【rowcount】:55,【run sql】:select dep_serial dep_no_add,dep_name dep_name from dt_dep where dep_parent = 10000
+2019-12-04 17:09:21 同步部门 释放写锁成功
+2019-12-04 17:09:21 同步部门 syn success
+2019-12-04 17:09:21 同步部门 [success]finish
